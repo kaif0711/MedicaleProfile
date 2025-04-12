@@ -27,7 +27,7 @@ import dr20 from "./dr20.jpeg"
 import dr21 from "./dr21.jpeg"
 import dr22 from "./dr22.jpeg"
 import dr23 from "./dr23.jpeg"
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import dropdown_icon from "./dropdown_icon.svg";
 import menu_icon from "./menu_icon.svg";
 import cross_icon from "./cross_icon.png";
@@ -35,11 +35,16 @@ import chats_icon from "./chats_icon.svg";
 import verified_icon from "./verified_icon.svg";
 import arrow_icon from "./arrow_icon.svg";
 import info_icon from "./info_icon.svg";
+import loc_icon from "./location-svg.svg"
+import linkdin_icon from "./linkedin-icon.svg"
+import mail_icon from "./mail-icon.png"
+import phone_icon from "./call-icon.png"
 import upload_icon from "./upload_icon.png";
 import stripe_logo from "./stripe_logo.png";
 import razorpay_logo from "./razorpay_logo.png";
 import doc1 from "./doc1.png";
 import doc2 from "./doc2.png";
+import logo2 from "./logo2.png";
 // import Dermatologist from "./Dermatologist.svg";
 // import Gastroenterologist from "./Gastroenterologist.svg";
 // import General_physician from "./General_physician.svg";
@@ -51,10 +56,14 @@ export const assets = {
   appointment_img,
   header_img,
   group_profiles,
-  logo,
+  // logo,
   chats_icon,
   verified_icon,
   info_icon,
+  loc_icon,
+  linkdin_icon,
+  mail_icon,
+  phone_icon,
   profile_pic,
   arrow_icon,
   contact_image,
@@ -88,6 +97,7 @@ export const assets = {
   dr21,
   dr22,
   dr23,
+  logo2,
 };
 
 // export const specialityData = [
@@ -124,10 +134,10 @@ export const doctors = [
     image: doc1,
     speciality: "General physician",
     degree: "MBBS , CIH",
-    experience: "17+ Years",
+    experience: "18+ Years",
     mail: "abu4183@gmail.com",
     about:
-      "I look forward to work in an environment, which will give me sufficient exposure of versatile job sphere and empowers me to take positive & constructive   decisions. Experience of working in organizations like yours which largely compliments my aim, would help me easily integrate into and work for betterment of my career and organization as a whole. I see myself as a successful and important member of the organization. I work for as well as society in contributing fully to its future, target & goals.",
+    "Dr. MOHAMMED AIYUB is committed to providing excellent medical care, focusing on patient health, early diagnosis, and effective treatment. He believes in preventive medicine and personalized care to ensure every patient gets the attention they need. With his medical knowledge and caring approach, Dr. MOHAMMED AIYUB creates a comfortable and trusting environment where patients feel supported in their health journey.",
     fees: 50,
     address: {
       line1: "17th Cross, Richmond",
@@ -155,10 +165,10 @@ export const doctors = [
     image: doc2,
     speciality: "Gynecologist",
     degree: "MBBS , CIH , ACLS , ITLS",
-    experience: "17+ Years",
+    experience: "18+ Years",
     mail: "mansuriharis@gmail.com",
     about:
-      "I look forward to work in an environment, which will give me sufficient exposure of versatile job sphere and empowers me to take positive & constructive   decisions. Experience of working in organizations like yours which largely compliments my aim, would help me easily integrate into and work for betterment of my career and organization as a whole. I see myself as a successful and important member of the organization. I work for as well as society in contributing fully to its future, target & goals.",
+    "Dr. Haris Mansuri is committed to providing excellent medical care, focusing on patient health, early diagnosis, and effective treatment. He believes in preventive medicine and personalized care to ensure every patient gets the attention they need. With his medical knowledge and caring approach, Dr. Haris Mansuri creates a comfortable and trusting environment where patients feel supported in their health journey.",
     fees: 60,
     address: {
       line1: "27th Cross, Richmond",

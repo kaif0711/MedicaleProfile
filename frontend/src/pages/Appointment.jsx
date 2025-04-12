@@ -23,7 +23,6 @@ const Appointment = () => {
     docInfo && (
       <div>
         {/* {------ Doctor details -------} */}
-        {/* <div className='felx flex-col md:flex-row flex-wrap px-6 md:px-10 lg:px-20 '> */}
         <div className="flex flex-col sm:flex-row gap-4">
           <div>
             <img
@@ -34,7 +33,7 @@ const Appointment = () => {
           </div>
 
           <div className="flex-1 border border-gray-400 rounded-lg p-8 py-7 bg-white mx-2 sm:mx-0 mt-[-80px] sm:mt-0">
-            {/* {--- DOc info : name ,degree , experience} */}
+            {/* {--- Doc info : name ,degree , experience} */}
             <p className="flex items-center gap-2 text-2x1 font-medium text-gray-900">
               {docInfo.name}
               <img className="w-5" src={assets.verified_icon} alt="" />

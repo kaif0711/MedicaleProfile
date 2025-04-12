@@ -12,7 +12,7 @@ const Header = () => {
             </p>
             <div>
                 {/* <img src={assets.group_profiles} alt="" /> */}
-                <p className='text-white leading-tight md:leading-tight lg:leading-tight'>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Rem ad cum nobis aspernatur aliquid modi magni <br />sit soluta enim pariatur!</p>
+                <p className='text-white leading-tight md:leading-tight lg:leading-tight'>We will help you to feel better and enjoy every single day of your life. may be the fastest growing health.</p>
             </div>
         </div>
         {/* -----right side------ */}
