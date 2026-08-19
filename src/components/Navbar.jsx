@@ -10,7 +10,7 @@ const Navbar = () => {
         <ul className="flex items-start gap-4 sm:gap-5 font-medium text-gray-800 text-sm sm:text-base">
             <NavLink to='/'>
                 <li className='py-1'>Home</li>
-                <hr className='border-none outline-none h-0.5 bg-green-400 w-3/5 m-auto hidden' />
+                <hr className='bor  der-none outline-none h-0.5 bg-green-400 w-3/5 m-auto hidden' />
             </NavLink>
             <NavLink to='/about'>
                 <li className='py-1'>About</li>
